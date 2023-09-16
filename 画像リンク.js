@@ -1,4 +1,4 @@
-const url = location.href.sprit('/');
+const url = location.href.split('/');
 if (url[url.length - 3] == "projects") {
 	let project_id = url[url.length - 4];
 	let result = "https://scratch.mit.edu//../get%5image/project/" + project_id + "_5000x5000.png";
