@@ -38,6 +38,7 @@ def check(num):
         pass
   time.sleep(1)
 
- 
+
+#check(10)の10はどれだけ調べるかです。用途に応じて変えてください。
 check(10)
   
